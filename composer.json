@@ -1,0 +1,23 @@
+{
+  "name": "redpa2ya/magento2-module-base",
+  "description": "Redpa2ya base for Magento 2",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "GNU General Public License v3.0",
+  "authors": [
+    {
+      "name": "Hoai Ngo",
+      "email": "hoainp08@gmail.com",
+      "homepage": "https://twitter.com/hoainp08",
+      "role": "Main developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Redpa2ya\\Base\\": ""
+    }
+  }
+}
